@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/darkempire",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Lenovo",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "fakerphp/faker": "^1.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "classes\\": "classes/",
+      "config\\": "config/",
+      "core\\": "core/",
+      "models\\": "application/models"
+    }
+  }
+}
